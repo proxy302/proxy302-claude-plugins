@@ -1,0 +1,28 @@
+{
+  "name": "proxy302",
+  "owner": {
+    "name": "Proxy302",
+    "url": "https://proxy302.com"
+  },
+  "metadata": {
+    "description": "Official Proxy302 plugins for Claude Code: residential proxies, usage and IP checks as tools for your AI assistant.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "proxy302",
+      "source": "./plugins/proxy302",
+      "description": "Proxy302 MCP server (hosted, OAuth sign-in) plus a skill that teaches Claude when and how to use it: get a residential proxy for any country, check traffic and balance, list your static IPs, rotate sticky IPs, check IP purity and quote costs. Never spends money.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Proxy302",
+        "url": "https://proxy302.com"
+      },
+      "homepage": "https://github.com/proxy302/proxy302-mcp",
+      "repository": "https://github.com/proxy302/proxy302-claude-plugins",
+      "license": "MIT",
+      "keywords": ["proxy", "residential-proxy", "mcp", "web-scraping", "ip", "proxy302"],
+      "category": "productivity"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "proxy302",
+  "version": "1.0.0",
+  "description": "Official Proxy302 plugin: the hosted Proxy302 MCP server (OAuth sign-in) and a skill for residential proxies, traffic and balance, static IPs, IP rotation, IP purity and cost quotes. Read-only and spend-free.",
+  "author": {
+    "name": "Proxy302",
+    "url": "https://proxy302.com"
+  },
+  "homepage": "https://github.com/proxy302/proxy302-mcp",
+  "repository": "https://github.com/proxy302/proxy302-claude-plugins",
+  "license": "MIT",
+  "keywords": ["proxy", "residential-proxy", "mcp", "web-scraping", "ip", "proxy302"]
+}
