@@ -5,15 +5,15 @@ description: Use when the user wants a residential proxy or IP for a country, st
 
 # Proxy302
 
-Proxy302 sells residential proxies (dynamic, billed per GB), static residential (ISP) IPs, static data center IPs and dedicated ISP IPs for AI subscriptions. This plugin connects Claude to the official Proxy302 MCP server at `https://mcp.proxy302.com/mcp`.
+Proxy302 sells residential proxies (dynamic, billed per GB), static residential (ISP) IPs, static data center IPs and dedicated ISP IPs for AI subscriptions. This plugin connects your AI assistant (Claude Code, Cursor) to the official Proxy302 MCP server at `https://mcp.proxy302.com/mcp`.
 
 ## First run
 
 The server needs the user's Proxy302 API key once:
 
-1. If a `proxy302` tool call fails with an auth error, tell the user to run `/mcp`, pick **proxy302** and sign in.
+1. If a `proxy302` tool call fails with an auth error, tell the user to sign in to the **proxy302** MCP server: in Claude Code run `/mcp` and pick **proxy302**; in Cursor open **Cursor Settings → MCP** and click **Connect** (or **Needs login**) next to **proxy302**.
 2. The sign-in page asks for an API key in the form `key id:secret`. They create one at https://proxy302.com/api-keys.
-3. Deleting the key in the console disconnects Claude.
+3. Deleting the key in the console disconnects the assistant.
 
 ## Which tool for which request
 

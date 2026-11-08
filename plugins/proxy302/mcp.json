@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "proxy302": {
+      "type": "http",
+      "url": "https://mcp.proxy302.com/mcp"
+    }
+  }
+}

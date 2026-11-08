@@ -13,7 +13,7 @@
       "name": "proxy302",
       "source": "./plugins/proxy302",
       "description": "Proxy302 MCP server (hosted, OAuth sign-in) plus a skill that teaches Claude when and how to use it: get a residential proxy for any country, check traffic and balance, list your static IPs, rotate sticky IPs, check IP purity and quote costs. Never spends money.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Proxy302",
         "url": "https://proxy302.com"

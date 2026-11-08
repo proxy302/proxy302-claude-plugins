@@ -1,13 +1,13 @@
-# Proxy302 Claude 插件
+# Proxy302 插件（Claude Code、Cursor）
 
 > **官方出品**，由 Proxy302 团队开发和维护。[English](README.md)
 
-让 Claude 直接用上住宅代理。这个仓库是一个 Claude Code 插件市场，里面有一个插件 **proxy302**，包含：
+让你的 AI 助手直接用上住宅代理。这个仓库既是 Claude Code 插件市场，也是 Cursor 插件仓库，里面有一个插件 **proxy302**，包含：
 
 - 官方托管的 [Proxy302 MCP 服务](https://github.com/proxy302/proxy302-mcp)（`https://mcp.proxy302.com/mcp`，登录授权）；
-- 一个**技能（Skill）**，告诉 Claude 什么时候该用它、每个工具怎么用好。
+- 一个**技能（Skill）**，告诉助手什么时候该用它、每个工具怎么用好。
 
-装好以后，你可以让 Claude：
+装好以后，你可以让助手：
 
 - 拿任意国家、州、城市的住宅代理地址；
 - 查流量、余额和用量；
@@ -38,6 +38,14 @@
 - 「把我那个美国固定会话代理换个新 IP」
 - 「买 20 GB 住宅流量要多少钱？」
 
+## 在 Cursor 里安装
+
+同一个插件也带了 Cursor 的清单（`.cursor-plugin/`）。只想先接上托管的 MCP 服务，点这里一键添加：
+
+[![Add to Cursor](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/en/install-mcp?name=proxy302&config=eyJ1cmwiOiJodHRwczovL21jcC5wcm94eTMwMi5jb20vbWNwIn0%3D)
+
+然后打开 **Cursor Settings → MCP**，点 **proxy302** 旁边的 **Connect**，用 Proxy302 API 密钥登录（格式 `密钥 ID:密钥`，在 https://proxy302.com/api-keys 创建）。
+
 ## 在 Claude 网页版或桌面版里用这个技能
 
 1. 从[最新发布](https://github.com/proxy302/proxy302-claude-plugins/releases/latest)下载 `proxy302-skill.zip`。
@@ -46,7 +54,7 @@
 
 ## 其他 MCP 客户端
 
-Cursor、VS Code、Windsurf、ChatGPT 等也能直接接同一个服务，见 [proxy302-mcp 说明](https://github.com/proxy302/proxy302-mcp/blob/main/README.zh-CN.md)。
+VS Code、Windsurf、ChatGPT 等也能直接接同一个服务，见 [proxy302-mcp 说明](https://github.com/proxy302/proxy302-mcp/blob/main/README.zh-CN.md)。
 
 ## 支持
 

@@ -1,0 +1,18 @@
+{
+  "name": "proxy302",
+  "displayName": "Proxy302",
+  "version": "1.0.0",
+  "description": "Residential proxies for your agent: get a proxy for any country, state or city, check traffic and balance, list static IPs, rotate sticky IPs, check IP purity and quote costs. Hosted MCP server with OAuth sign-in. Read-only and spend-free.",
+  "author": {
+    "name": "Proxy302"
+  },
+  "homepage": "https://proxy302.com",
+  "repository": "https://github.com/proxy302/proxy302-claude-plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": ["proxy302", "proxy", "residential-proxy", "mcp", "web-scraping", "ip", "playwright"],
+  "category": "integrations",
+  "tags": ["proxy", "residential-proxy", "mcp", "web-scraping"],
+  "mcpServers": "./mcp.json",
+  "skills": "./skills/"
+}

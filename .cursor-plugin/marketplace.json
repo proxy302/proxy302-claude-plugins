@@ -1,0 +1,17 @@
+{
+  "name": "proxy302",
+  "owner": {
+    "name": "Proxy302"
+  },
+  "metadata": {
+    "description": "Official Proxy302 plugins for Cursor: residential proxies, usage and IP checks as tools for your AI agent.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "proxy302",
+      "source": "./plugins/proxy302",
+      "description": "Residential proxies for your agent: a proxy for any country, state or city, traffic and balance, static IPs, IP rotation, IP purity checks and cost quotes. Hosted MCP server with OAuth sign-in. Never spends money."
+    }
+  ]
+}

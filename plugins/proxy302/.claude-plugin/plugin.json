@@ -1,6 +1,6 @@
 {
   "name": "proxy302",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Official Proxy302 plugin: the hosted Proxy302 MCP server (OAuth sign-in) and a skill for residential proxies, traffic and balance, static IPs, IP rotation, IP purity and cost quotes. Read-only and spend-free.",
   "author": {
     "name": "Proxy302",
